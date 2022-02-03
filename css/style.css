@@ -12,7 +12,10 @@ body{
 h1, h2, h3 {
     font-family: "Ibarra Real Nova", Arial, Helvetica, sans-serif;
 }
-
+a{
+    display: inline-block;
+    text-decoration: none;
+}
 footer{
     background-color: #33323D;
     height: 80px;
@@ -53,7 +56,6 @@ header{
     height: 70px;
 }
 header a, footer a{
-    display: inline-block;
     text-decoration: none;
     font-size: 12px;
     margin: 0 8px;
@@ -69,5 +71,32 @@ header a{
 .hero{
     min-height: 400px;
     position: relative;
-    background-color: yellow;
+}
+.hero-content{
+    position: absolute;
+    bottom: 0;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero-link{
+    margin-top: 10px;
+    padding: 20px;
+    width: 150px;
+    font-size: 12px;
+    text-align: right;
+    background-color: #203A4C;
+    color: white;
+    position: relative;
+}
+.hero-link span{
+    position: absolute;
+    display: inline-block;
+    background-color: #1D3444;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
 }
