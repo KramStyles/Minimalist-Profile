@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+footer{
+    background-color: #33323D;
+    height: 80px;
+    color: white;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
