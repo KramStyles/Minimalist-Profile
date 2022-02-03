@@ -35,12 +35,39 @@ footer .container{
     display: flex;
     align-items: center;
 }
-.footer-left i{
+.footer-left i, .logo{
     font-size: 3em;
+    display: inline-block;
 }
+i.fa.fa-caret-down{
+    margin-right: 20px;
+}
+
 footer a{
     color: white;
-    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+header a, footer a{
     display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
     margin: 0 8px;
+}
+header a{
+    color: black;
+}
+
+.active{
+    color: #5FB4A2;
+}
+
+.hero{
+    min-height: 400px;
+    position: relative;
+    background-color: yellow;
 }
