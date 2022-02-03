@@ -20,9 +20,6 @@ footer{
     background-color: #33323D;
     height: 80px;
     color: white;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
     display: flex;
 
 }
@@ -69,7 +66,7 @@ header a{
 }
 
 .hero{
-    min-height: 400px;
+    min-height: 500px;
     position: relative;
 }
 .hero-content{
@@ -99,4 +96,20 @@ header a{
     padding: 15px;
     display: flex;
     align-items: center;
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+
+}
+.card-desc, .img-card{
+    width: 45%;
+    min-height: 400px ;
+}
+.card-desc{
+    border-top: silver 1px solid;
+    border-bottom: silver 1px solid;
+    width: 35%;
+
 }
