@@ -6,14 +6,41 @@
 
 body{
     background-color: #f2f2f2;
+    font-family: "Public Sans", poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Ibarra Real Nova", Arial, Helvetica, sans-serif;
 }
 
 footer{
     background-color: #33323D;
     height: 80px;
     color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+
 }
 .container{
     width: 85%;
     margin: auto;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left, .footer-right{
+    display: flex;
+    align-items: center;
+}
+.footer-left i{
+    font-size: 3em;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 8px;
 }
