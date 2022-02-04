@@ -177,3 +177,28 @@ header a{
 .divider{
     margin: 50px 0;
 }
+
+label{
+    font-size: 13px;
+    font-weight: bold;
+}
+input, textarea{
+    background-color: #e6e6e6;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    font-family: public sans;
+    resize: none;
+    font-size: 13px;
+}
+input:focus, textarea:focus{
+    outline: none;
+}
+input[type='button']{
+    background-color: #203A4C;
+    color: white;
+    text-transform: uppercase;
+    width: auto;
+    padding: 15px 30px;
+}
