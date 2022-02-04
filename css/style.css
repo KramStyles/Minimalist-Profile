@@ -202,3 +202,20 @@ input[type='button']{
     width: auto;
     padding: 15px 30px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .contact-gaps{
+        display: block;
+    }   
+    .contact-gaps div{
+        width: 100%;
+    }
+    .contact-gaps h1{
+        margin: 20px 0;
+    }
+}
