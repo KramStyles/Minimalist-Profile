@@ -19,12 +19,17 @@ a{
     font-size: 12px;
 }
 footer{
-    background-color: #33323D;
+    background-color: var(--text-color);
     height: 80px;
     color: white;
     display: flex;
 
 }
+
+:root{
+    --text-color: #33323D;
+}
+
 .container{
     width: 85%;
     margin: auto;
@@ -113,7 +118,7 @@ header a{
     border-bottom: silver 1px solid;
     padding: 25px 0;
     line-height: 30px;
-    color: #33323D;
+    color: var(--text-color);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -123,14 +128,14 @@ header a{
     margin: 30px 0;
 }
 .card-link{
-    border: 1px solid #33323D;
+    border: 1px solid var(--text-color);
     padding: 10px 20px;
     text-align: center;
-    color: #33323D;
+    color: var(--text-color);
     transition: 0.5s ease all;
 }
 .card-link:hover{
-    background-color: #33323D;
+    background-color: var(--text-color);
     color: #f2f2f2;
 }
 
@@ -143,4 +148,32 @@ header a{
 .before-footer hr{
     border: none;
     border-top: 1px solid silver;
+}
+.contact-gaps{
+    padding: 50px 0;
+    margin-bottom: 40px;
+    border-top: 1px solid var(--text-color);
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+.contact-gaps div{
+    width: 45%;
+}
+.contact-gaps h1{
+    font-size: 2.5em;
+}
+
+.contact-gaps .socials{
+    margin-top: 20px;
+}
+
+.contact-gaps .socials a{
+    color: var(--text-color);
+    font-size: 20px;
+    padding: 3px;
+}
+
+.divider{
+    margin: 50px 0;
 }
