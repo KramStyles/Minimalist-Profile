@@ -256,6 +256,10 @@ input[type='button']{
     right: 150px;
 }
 
+.showcase-manage img{
+    width: auto;
+}
+
 .showcase-1 div{
     min-height: 400px;
     display: flex;
