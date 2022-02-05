@@ -228,15 +228,34 @@ input[type='button']{
     padding: 15px 30px;
 }
 
-.showcase-1{
+.showcase-1, .showcase-bookmark{
     padding: 0 50px;
     display: flex;
     justify-content: space-around;
     position: relative;
+    min-height: 500px;
 }
-.showcase-1 img{
+.showcase-1 img, .showcase-bookmark img{
     width: 100%;
 }
+
+.showcase-bookmark{
+    position: relative;
+    overflow: hidden;
+}
+
+.showcase-bookmark div{
+    position: absolute;
+}
+.showcase-bookmark div:first-child{
+    top: 150px;
+    left: 150px;
+    z-index: 10;
+}
+.showcase-bookmark div:last-child{
+    right: 150px;
+}
+
 .showcase-1 div{
     min-height: 400px;
     display: flex;
