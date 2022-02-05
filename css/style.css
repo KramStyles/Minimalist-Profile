@@ -203,6 +203,28 @@ input[type='button']{
     padding: 15px 30px;
 }
 
+.showcase-1{
+    padding: 0 50px;
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.showcase-1 img{
+    width: 100%;
+}
+.showcase-1 div{
+    min-height: 400px;
+    display: flex;
+    width: 30%;
+}
+.showcase-1 div:first-child{
+    margin-top: 200px;
+}
+.showcase-1 div:last-child{
+    display: block;
+}
+
 
 
 
