@@ -147,6 +147,18 @@ header a{
     margin-bottom: 40px;
 }
 
+.showcase-insure{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.showcase-insure div{
+    margin: 0;
+}
+.showcase-insure div:first-child{
+    margin-top: 35px;
+}
+
 .img-card img {
     margin: auto;
     display: block;
