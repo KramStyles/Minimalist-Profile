@@ -272,8 +272,44 @@ input[type='button']{
     line-height: 5px;
 }
 
+.portfolio-navigation{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.navi-left, .navi-right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    transition: 0.4s ease all;
+}
 
+.navi-left:hover, .navi-right:hover{
+    background-color: #e6e6e6;
+}
 
+.navi-right{
+    justify-content: flex-end;
+    border-left: 1px solid silver;
+}
+
+.portfolio-navigation .fa{
+    padding: 0 25px;
+    color: var(--text-color);
+}
+.portfolio-navigation p{
+    font-size: 11px;
+    color: var(--text-color);
+}
+
+.portfolio-navigation h3{
+    font-size: 20px;
+    color: var(--text-color);
+    font-family: public sans;
+}
 
 
 
