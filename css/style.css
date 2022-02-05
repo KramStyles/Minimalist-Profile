@@ -67,7 +67,9 @@ header a{
     color: black;
 }
 
-.active{
+
+
+.active, footer a:hover, .menu a:hover{
     color: #5FB4A2;
 }
 
