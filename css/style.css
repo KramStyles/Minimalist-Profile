@@ -228,7 +228,6 @@ input[type='button']{
 
 .showcase-1{
     padding: 0 50px;
-    background-color: silver;
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -246,6 +245,25 @@ input[type='button']{
 }
 .showcase-1 div:last-child{
     display: block;
+}
+
+.showcase-2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+.showcase-2 div {
+    width: 24%;
+    margin-bottom: 0;
+}
+
+.showcase-2 div:first-child{
+    display: flex;
+    margin-top: 60px;
+}
+
+.showcase-2 img {
+    width: 100%;
 }
 
 .card-desc article{
