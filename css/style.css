@@ -240,7 +240,7 @@ input[type='button']{
     padding: 15px 30px;
 }
 
-.showcase-1, .showcase-bookmark{
+.showcase-1, .showcase-bookmark, .showcase-3{
     padding: 0 50px;
     display: flex;
     justify-content: space-around;
@@ -250,6 +250,24 @@ input[type='button']{
 .showcase-1 img, .showcase-bookmark img{
     width: 100%;
 }
+.showcase-3 div{
+    width: 40%;
+    position: relative;
+}
+
+.showcase-3{
+    padding: 0;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.porto-rotate{
+    transform: rotate(15deg);
+    width: 100%;
+    position: absolute;
+    right: 90px;
+    top: 200px;
+}
+
 
 .showcase-bookmark{
     position: relative;
